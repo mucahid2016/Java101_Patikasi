@@ -1,5 +1,5 @@
 
-package Kosullu_İfadeler.Mantiksal;
+package Kosullu_İfadeler.Switch_Case;
 
 public class Main {
     public static void main(String[] args)  {
