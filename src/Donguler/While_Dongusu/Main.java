@@ -6,15 +6,23 @@ public class Main {
     public static void main(String[] args) {
 
         int password;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Şifre Giriniz : ");
-        password=sc.nextInt();
+        boolean isPasswordSuccess=false;
 
-        if (password==123){
-            System.out.println("Doğru");
-        }else {
-            System.out.println("Yanlış");
+        Scanner sc = new Scanner(System.in);
+
+
+        while (!isPasswordSuccess){
+            System.out.print("Şifre Giriniz : ");
+            password=sc.nextInt();
+            if (password==123){
+                System.out.println("Doğru");
+                isPasswordSuccess=true;
+            }else {
+                System.out.println("Yanlış");
+            }
         }
+
+
 
 
 
