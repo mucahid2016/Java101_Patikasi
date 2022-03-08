@@ -1,4 +1,4 @@
-package Donguler.Do_While_Dongusu;
+package Donguler.Konular.Do_While_Dongusu;
 
 import java.util.Scanner;
 
