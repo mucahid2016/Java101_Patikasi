@@ -5,12 +5,25 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int sayi;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+        System.out.println();
+        System.out.println("*******");
+        System.out.println();
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
 
-        do {
-            System.out.println("Sayı Giriniz : ");
-            sayi = input.nextInt();
-        } while (sayi > 0);
+
+//        int sayi;
+//
+//        do {
+//            System.out.println("Sayı Giriniz : ");
+//            sayi = input.nextInt();
+//        } while (sayi > 0);
 
 //        for (boolean run = true; run; ) {
 //            System.out.print("Sayı Giriniz : ");
