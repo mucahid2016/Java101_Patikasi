@@ -6,13 +6,19 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int sayi;
-        for (boolean run = true; run; ) {
-            System.out.print("Sayı Giriniz : ");
+
+        do {
+            System.out.println("Sayı Giriniz : ");
             sayi = input.nextInt();
-            if (sayi < 0) {
-                run = false;
-            }
-        }
+        } while (sayi > 0);
+
+//        for (boolean run = true; run; ) {
+//            System.out.print("Sayı Giriniz : ");
+//            sayi = input.nextInt();
+//            if (sayi < 0) {
+//                run = false;
+//            }
+//        }
 
 
 //        for (int sayac = 1; sayac <= 10; sayac += 2) {
