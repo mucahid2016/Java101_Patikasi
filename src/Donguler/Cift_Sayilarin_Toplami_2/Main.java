@@ -1,4 +1,4 @@
-package Donguler.TekSayilarin_Toplami_3;
+package Donguler.Cift_Sayilarin_Toplami_2;
 
 import java.util.Scanner;
 
