@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int n, n1 = 0, n2 = 1, n3;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("N Değerini Giriniz : ");
+        System.out.print("N Değerini Giriniz: ");
         n = scanner.nextInt();
 
         for (int i = 1; i < n; i++) {
