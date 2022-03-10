@@ -1,4 +1,4 @@
-package Donguler.Yildizlarla_Ucgen_Yapma_8;
+package Donguler.Yildizlarla_Desen_Yapma_8;
 
 import java.util.Scanner;
 
