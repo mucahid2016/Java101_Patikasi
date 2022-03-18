@@ -4,7 +4,7 @@ public class Main {
 
 
     static int fx(int n) {
-        System.out.println("n => " + n);
+        System.out.println("n => " + n) ;
         if (n == 1) {
             return 1;
         }
