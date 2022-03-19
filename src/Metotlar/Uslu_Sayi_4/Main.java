@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     static int power(int n, int k) {
-        int result = 1;
+
         //1 3 9 27 81
         //n^0=1
         //n^1=n
@@ -13,7 +13,7 @@ public class Main {
         if (k == 0) {
             return 1;
         }
-        result = power(n, k - 1) * n;
+        int result = power(n, k - 1) * n;
         return result;
     }
 
