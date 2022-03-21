@@ -1,7 +1,7 @@
 package Siniflar.Tanim;
 
 public class Car {
-    String type;
+    String type = "sedan";
     String model;
     String color;
     int speed;
@@ -20,6 +20,6 @@ public class Car {
     }
 
     void printSpeed() {
-        System.out.print("Hızınız: " + speed);
+        System.out.println(model + " Hızınız : " + speed);
     }
 }
