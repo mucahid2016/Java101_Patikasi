@@ -4,9 +4,6 @@ public class Student {
     Course c1;
     Course c2;
     Course c3;
-    Course s1;
-    Course s2;
-    Course s3;
 
     String name;
     String stuNo;
