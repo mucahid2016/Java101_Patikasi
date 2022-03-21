@@ -10,9 +10,10 @@ public class Teacher {
         this.mpno = mpno;
         this.branch = branch;
     }
-    void print(){
-        System.out.println("Adı : "+this.name);
-        System.out.println("Telefenu : "+this.mpno);
-        System.out.println("Bölümü : "+this.branch);
+
+    void print() {
+        System.out.println("Adı : " + this.name);
+        System.out.println("Telefenu : " + this.mpno);
+        System.out.println("Bölümü : " + this.branch);
     }
 }
