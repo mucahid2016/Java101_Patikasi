@@ -16,12 +16,13 @@ public class Main {
         bio.addTeacher(t3);
 
         Student st1 = new Student("İnek Şaban", "123", "4", tarih, fizik, bio);
-        st1.addBulkExamNote(0, 0,0);
-        st1.addBulkSozlu(100,100,100);
+        st1.addBulkExamNote(0, 0, 0);
+        st1.addBulkSozlu(100, 100, 100);
         st1.isPass();
 
         Student st2 = new Student("Güdük Necmi", "77", "4", tarih, fizik, bio);
-//        st2.addBulkExamNote(80, 70, 30);
+        st2.addBulkExamNote(80, 70, 30);
+        st2.addBulkSozlu(0, 0, 0);
         st2.isPass();
 
     }
